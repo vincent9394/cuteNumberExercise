@@ -22,9 +22,11 @@ public class Main {
     }
 
     public int[] findAllEvenNumbers(int[] numbers) {
+        int i = 0;
         return Arrays.stream(numbers)
                 .filter(number -> number % 2 == 0)
                 .toArray();
+
 
     }
 
